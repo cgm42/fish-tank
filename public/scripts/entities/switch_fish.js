@@ -4,6 +4,11 @@ class SwitchFish extends Fish {
     this.imageUri = '/images/sushicat.gif';
   }
   onClick(event) {
-    this.makeNewVelocity(50);
+    this.height = this.height * 1.5;
+    this.width = this.width * 1.5;
+    setTimeout(() => {
+      this.height = this.height / 1.5;
+      this.width = this.width / 1.5;
+    }, 200);
   }
 }

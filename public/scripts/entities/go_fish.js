@@ -22,7 +22,5 @@ class GoFish extends Fish {
   onClick(event) {
     this.surgeSecondsLeft = this.maxSurge + 5;
     this.velocity.y = this.velocity.x * 3;
-
-
   }
 }
