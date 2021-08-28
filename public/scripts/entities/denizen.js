@@ -3,8 +3,8 @@ class Denizen {
   constructor(options) {
     // console.log("constructing:", this.constructor.name, options);
     this.lastTime = new Date();
-    this.height = options.height || 60;
-    this.width = options.width || 60;
+    this.height = options.height || 100;
+    this.width = options.width || 100;
     this.position = options.position.clone();
     if (options.velocity) {
       this.velocity = options.velocity.clone();
@@ -57,7 +57,7 @@ class Denizen {
 
   kill(duration) {
     // duration can be undefined, no problem
-    // console.log("like tears, in rain.  time to die.", this);
+    console.log("like tears, in rain.  time to die.", this);
     this.tank.removeDenizen(this.id, duration);
   }
 

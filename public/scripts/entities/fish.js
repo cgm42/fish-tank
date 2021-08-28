@@ -30,7 +30,7 @@ class Fish extends Denizen {
 
   makeNewVelocity(minMag) {
     this.swimVelocity = this.generateSwimVelocity(this.maxSwimSpeed, minMag || 0);
-    this.timeUntilSpeedChange = randRangeInt(5);
+    this.timeUntilSpeedChange = randRangeInt(1);
   }
 
 }
