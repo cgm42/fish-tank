@@ -1,7 +1,7 @@
 class BiteFish extends Fish {
   constructor(options) {
     super(options);
-    this.imageUri = '/images/71382323.png';
+    this.imageUri = 'images/71382323.png';
   }
   onClick(event) {
     this.surgeSecondsLeft = this.maxSurge + 5;

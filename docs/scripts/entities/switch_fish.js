@@ -1,7 +1,7 @@
 class SwitchFish extends Fish {
   constructor(options) {
     super(options);
-    this.imageUri = '/images/sushicat.gif';
+    this.imageUri = 'images/sushicat.gif';
   }
   onClick(event) {
     this.height = this.height * 1.5;

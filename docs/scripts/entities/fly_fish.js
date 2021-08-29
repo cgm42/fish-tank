@@ -3,7 +3,7 @@ class FlyFish extends Fish {
     super(options);
     this.height = options.height || 200;
     this.width = options.width || 200;
-    this.imageUri = '/images/gamer_fish.gif';
+    this.imageUri = 'images/gamer_fish.gif';
     this.surgeSecondsLeft = 0;
     this.maxSurge = 2.0;
     this.surgMult = 3.0;
