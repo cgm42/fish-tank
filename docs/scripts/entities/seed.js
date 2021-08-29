@@ -3,7 +3,7 @@ class Seed extends Denizen {
   constructor(options) {
     super(options);
     this.waterFriction = 0.3;      // "0.3" means "lose 30% per second"
-    this.imageUri = '/images/seed.png';
+    this.imageUri = 'images/seed.png';
     this.type = options.type;
     this.height = options.height || 30;
     this.width = options.width || 30;
